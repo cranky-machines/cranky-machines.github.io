@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cranky Machines Blog</title>
+    <link rel="stylesheet" href="general-style.css" />
+    <link rel="stylesheet" href="article-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="SHORTCUT ICON" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="ICON" type="image/ico" href="/assets/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="bg-img">
+	<div class="content">
+	  <h1>Cranky Machines</h1>
+	  <p>a blog by Cyril Mori</p>
+	</div>
+      </div>
+    </div>
+    
+    <nav id="nav">
+      <ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a class="active" href="gallery.html" style="cursor: pointer;">Gallery</a></li>
+	<li><a href="process.html">Making Process</a></li>
+	<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="row">
+      <div id="left-column" class="column">
+      </div>
+
+      <div id="main-content" class="column">
+	<div class="page-nav">
+	  <a class="prev-link" href="5-maker.html">Previous</a> |
+	  <a class="next-link" href="7-violin.html">Next</a>
+	</div>
+	<h2 class="title">Seppuku Bots</h2>
+	<p class="desc">A dishonored samurai-bot and his helper.</p>
+
+	<video class="portrait-vid" controls>
+	      <source src="/assets/robot-photos/6-samurai/front.mp4" type="video/mp4" />
+	      Your browser does not support the video tag.
+	</video>
+	
+	<p class="section-title">Concept</p>
+	<p class="section">Well yeah this is a bit of a morbid one.  Again, it was a friend who gave me the idea (and who explained how seppuku worked). I really liked the concept because of how many movements were necessary for the "full" ceremony. I went with 3 steps: the samurai-bot (sitting down) commits hara-kiri, the helper-bot (standing up) beheads him, the samurai-bot puts his head back in place and then it repeats. This is also the first automaton with two robots.</p>
+
+	<p class="section-title">Construction</p>
+	<p class="section">The planning took a bit longer than usual because, with so many different actions. I had to work on getting the order and timing right, for the crank shaft to activate the different levers at the correct time. After that, the execution went pretty smoothly. I just had to make sure all the parts moved as smoothly as possible so as to not put too much strain on the crank axis. Aside from that, building the robots and props was rather straightforward aside from the fact there were twice the amount of parts to make.</p>
+	
+	<p class="section-title">New things</p>
+	<p class="section">
+	  <ul>
+	    <li>First automaton with two robots: allowed for a more complex and interesting situation.</li>
+	    <li>The crank axis drives 3 different movements: I wasn't sure this would be possible because of the strain on the axis but it was good to see it ended up working out.</li>
+	    <li>Planning ahead the timing of the motion: I started doing this after the maker-bot. It's good to think ahead about how interesting the motion will be to watch.</li>
+	    <li>Robot head articulated for up-down movement: I had to hide the hinge inside the body but it worked out okay.</li>
+	    <li>Pretty discrete mechanism: it isn't actually hidden but by putting most of it behind the bots I feel it's not that visually distracting, considering all the components it has.</li>
+	</ul></p>
+
+	<p class="section-title">What needs improvement</p>
+	<p class="section">This one worked out surprisingly well to be honest. It was mainly thanks to all the preemptive planning. Still it was clearly not perfect:
+	  <ul>
+	    <li>Durability: again this automaton was for a friend and it broke while I was transporting it. I'm far from being able to mail them away.</li>
+	    <li>Actions happen a bit too fast: even when cranking slowly, it takes a while to understand what's going on (especially with the strange idea of having the samurai-bot putting his head back on). It's still fun to watch though.</li>
+	</ul></p>
+
+	<p class="section-title">Videos and more pictures</p>
+	<p class="section">
+	  Not many pictures or videos of this one because I had to finish it in a rush before a trip in order to get it to my friend. The videos were done on the spot and I forgot to take pictures of the finished automaton.
+	  <div class="img-grid">
+	    <a target="_blank" href="/assets/robot-photos/6-samurai/photo.jpg">
+	      <img class="pics" alt="Photo of the standing bot during the building process." src="/assets/robot-photos/6-samurai/photo.jpg"/>
+	    </a>
+	    <video class="portrait-vid" controls>
+	      <source src="/assets/robot-photos/6-samurai/3-4ths.mp4" type="video/mp4" />
+	      Your browser does not support the video tag.
+	    </video>
+	  </div>
+	</p>
+
+	<div class="page-nav">
+	  <a class="prev-link" href="5-maker.html">Previous</a> |
+	  <a class="next-link" href="7-violin.html">Next</a>
+	</div>
+      </div>
+
+      <div id="right-column" class="column">
+      </div>
+    </div>
+
+    <div class="footer">
+      	<a href="home.html">Home</a> | 
+	<a href="gallery.html">Gallery</a> | 
+	<a href="process.html">Making Process</a> | 
+	<a href="contact.html">Contact</a>
+	<p id="copyright">Copyright &#169 2020 CrankyMachines.<br />All Rights Reserved</p>
+    </div>
+  </body>
+</html>

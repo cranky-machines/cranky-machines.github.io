@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cranky Machines Blog</title>
+    <link rel="stylesheet" href="general-style.css" />
+    <link rel="stylesheet" href="article-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="SHORTCUT ICON" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="ICON" type="image/ico" href="/assets/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="bg-img">
+	<div class="content">
+	  <h1>Cranky Machines</h1>
+	  <p>a blog by Cyril Mori</p>
+	</div>
+      </div>
+    </div>
+    
+    <nav id="nav">
+      <ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a class="active" href="gallery.html" style="cursor: pointer;">Gallery</a></li>
+	<li><a href="process.html">Making Process</a></li>
+	<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="row">
+      <div id="left-column" class="column">
+      </div>
+
+      <div id="main-content" class="column">
+	<div class="page-nav">
+	  <a class="prev-link" href="6-samurai.html">Previous</a> |
+	  <a class="next-link" href="8-readers.html">Next</a>
+	</div>
+	<h2 class="title">Violinist Bot</h2>
+	<p class="desc">His posture could be better.</p>
+
+	<a target="_blank" href="/assets/robot-photos/7-violin/front.jpg">
+	  <img class="main-pic" alt="Front-view of the bot." src="/assets/robot-photos/7-violin/front.jpg" />
+	</a>
+	
+	<p class="section-title">Concept</p>
+	<p class="section">This robot seems simple compared to some of the other ones: no props, only one robot and one movement. However it was interesting to try reproducing a movement I didn't really understand. I don't play the violin so I had to look at some several videos to see plan the movement. It was a also the first time I made a robot with 3 hinges on one arm, which is much more complicated to control.</p>
+
+	<p class="section-title">Construction</p>
+	<p class="section">There was mostly no problem for most of the robot's body. Only the playing arm took a little more attention: I had to make very small hinges and also make them sturdy so that it wouldn't be too wobbly. The mechanism took a bit more tweaking. I couldn't really plan it completely in advance, but I knew I wanted the elbow and wrist to move up and down successively. Then I mounted the whole thing and just tweaked the timing until it was alright.</p>
+	
+	<p class="section-title">New things</p>
+	<p class="section">
+	  <ul>
+	    <li>Arm articulated in 3 points: the different sections have to be controlled separately.</li>
+	    <li>Wires to  make the assembly sturdier: the entire body is linking together with internal wires instead of just glue (I'll make a more detailed post about this part of the process). The feet are also connected to the bottom plate.</li>
+	    <li>Detachable crank handle: to transport it more easily. It stays in place without any glue.</li>
+	</ul></p>
+
+	<p class="section-title">What needs improvement</p>
+	<p class="section">
+	  <ul>
+	    <li>Hinges are too flimsy: it makes the movement a bit random. It kind of works in this context because it makes it look like the bot is playing different notes but it could be a problem for a more precise movement.</li>
+	    <li>Not enough planning: I feel like things worked out a little by luck. I also had to make the lever for the wrist exensible because the mation was weird when the length was fixed... I still have to figure out how to plan these more complex movements in advance.</li>
+	</ul></p>
+
+	<p class="section-title">Videos and more pictures</p>
+	<p class="section">
+	  Yeah, vertical format again, sorry about that.
+	  <div class="img-grid">
+	    <a target="_blank" href="/assets/robot-photos/7-violin/top.jpg">
+	      <img class="pics" alt="Photo of the standing bot during the building process." src="/assets/robot-photos/7-violin/top.jpg"/>
+	    </a>
+	    <video class="portrait-vid" controls>
+	      <source src="/assets/robot-photos/7-violin/video.mp4" type="video/mp4" />
+	      Your browser does not support the video tag.
+	    </video>
+	  </div>
+	</p>
+
+	<div class="page-nav">
+	  <a class="prev-link" href="6-samurai.html">Previous</a> |
+	  <a class="next-link" href="8-readers.html">Next</a>
+	</div>
+      </div>
+
+      <div id="right-column" class="column">
+      </div>
+    </div>
+
+    <div class="footer">
+      	<a href="home.html">Home</a> | 
+	<a href="gallery.html">Gallery</a> | 
+	<a href="process.html">Making Process</a> | 
+	<a href="contact.html">Contact</a>
+	<p id="copyright">Copyright &#169 2020 CrankyMachines.<br />All Rights Reserved</p>
+    </div>
+  </body>
+</html>

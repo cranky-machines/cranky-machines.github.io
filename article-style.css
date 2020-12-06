@@ -1,0 +1,80 @@
+h2.title {
+    font-weight: normal;
+    font-size: xx-large;
+    display: block;
+    text-align: center;
+}
+
+p.desc {
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+img.main-pic {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.section-title {
+    font-weight: normal;
+    font-size: x-large;
+    padding-top: 0.5em;
+}
+
+p.section {
+    text-indent: 3em;
+}
+
+.img-grid {
+    background-color: #cecece;
+    padding: 3% 1.5% 5% 1.5%;
+}
+
+.img-grid>a {
+    text-decoration: none;
+}
+
+img.pics {
+    display: inline-block;
+    width: 29%;
+    height: auto;
+    padding: 1% 1.2%;
+}
+
+video.vid {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 1.5%;
+}
+
+video.portrait-vid {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 1.5%;
+}
+
+#main-content ul {
+    list-style: square;
+    list-style-position: inside;
+}
+
+#main-content li {
+    padding: 0.3em 0;
+}
+
+.page-nav {
+    padding-top: 2%;
+    text-align: center;
+    font-weight: normal;
+    top-padding: 1em;
+}

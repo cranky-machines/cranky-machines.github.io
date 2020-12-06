@@ -1,0 +1,77 @@
+#form-title {
+    padding: 2% 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: normal;
+    font-size: xx-large;
+    color: #12131d;
+}
+
+#form-body {
+    color: #12131d;
+    padding: 0 0 6% 0;
+}
+
+.form-label {
+    font-size: larger;
+    width: 67%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 0 2% 0;
+    text-align: left;
+}
+
+.form-field {
+    padding-bottom: 2%;
+}
+
+.form-field>input, .form-field>textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding: 1% 2%;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid #c3cce9;
+}
+
+textarea#message {
+    resize: none;
+}
+
+button#submit-button {
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 10% 2% 10%;
+    font-size: large;
+    font-weight: normal;
+    background-color: #a5b1d3;
+    color: #12131d;
+    border: 2px solid #6a7991;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#submit-button:hover {
+    background-color: #585d8d;
+    color: #c3cce9;
+    border-color: #585d8d;
+}
+
+@media screen and (max-width: 900px) {
+  #main-content {
+      padding-bottom: 16%;
+  }
+  .form-label {
+      width: 77%;
+  }
+  .form-field>input, .form-field>textarea {
+      width: 75%;
+  }
+}

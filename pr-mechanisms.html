@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cranky Machines Blog</title>
+    <link rel="stylesheet" href="general-style.css" />
+    <link rel="stylesheet" href="article-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="SHORTCUT ICON" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="ICON" type="image/ico" href="/assets/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="bg-img">
+	<div class="content">
+	  <h1>Cranky Machines</h1>
+	  <p>a blog by Cyril Mori</p>
+	</div>
+      </div>
+    </div>
+    
+    <nav id="nav">
+      <ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="gallery.html">Gallery</a></li>
+	<li><a href="process.html" class="active" style="cursor: pointer;">Making Process</a></li>
+	<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="row">
+      <div id="left-column" class="column">
+      </div>
+
+      <div id="main-content" class="column">
+	<div class="page-nav">
+	  <a class="prev-link" href="pr-tools.html">Previous</a> |
+	  <a class="next-link" href="pr-wiring.html">Next</a>
+	</div>
+	
+	<h2 class="title">Mechanisms</h2>
+	<p class="section">I'll just begin by pointing out that I don't know the actual name of these mechanisms, so I just gave them names depending on the use I had for them.
+	<p/>
+	<p class="section">Also, some of the videos are from the automata are made and others (like the build-up mechanism) were remade on a sort of test-bed made of wires. I know it looks a bit confusing but it serves as replacement when I can't record the bots that used those mechanisms.</p>
+	
+	<p class="section-title">Crank axis and levers</p>
+	<p class="section">This is the first type of mechanism I used for the bots. The crank axis has some H-like sections that serve to actuate the levers. Those look like an H because the sides have to be larger, in order for the attached mechanism to stay centered.
+	</p>
+	<p class="section">There are two main variants of this mechanism:
+	  <ul>
+	    <li>High lever: the lever is far from the crank axis (in this video, the arm is the lever) and is connected to the crank axis by an additional piece.
+
+	      <video class="vid" controls>
+		<source src="/assets/process-photos/2-mechanisms/high-lever.mp4" type="video/mp4" />
+		Your browser does not support the video tag.
+	      </video>
+	    </li>
+	    <li>
+	      Low lever: the lever can also be directly connected to the crank axis. However in this case, they must be attached in a way that the crank axis can travel along the length of the lever. You should see in the video that the crank axis passes through a "longer loop" in the lever.
+
+	      <video class="vid" controls>
+		<source src="/assets/process-photos/2-mechanisms/low-lever.mp4" type="video/mp4" />
+		Your browser does not support the video tag.
+	      </video>
+	    </li>
+	  </ul>
+	</p>
+
+	<p class="section-title">Build-up mechanism</p>
+	<p class="section">I only ever used this mechanism for the swatter bot. It's really easy to make but also less fun to watch. Pretty good for movements that have a slow build-up and then a fast movement.
+
+	  <video class="vid" controls>
+	    <source src="/assets/process-photos/2-mechanisms/swat-mechanism.mp4" type="video/mp4" />
+	    Your browser does not support the video tag.
+	  </video>
+	</p>
+
+	<p class="section-title">Worm drive</p>
+	<p class="section">I found out the actual name for this one. It's good for very long actions but it can be a bit boring as it advances very slowly. Also pretty cumbersome. And careful not to put it too close to the bottom plate or else it'll be too low for the crank to drive it.
+
+	  <video class="vid" controls>
+	    <source src="/assets/process-photos/2-mechanisms/screw.mp4" type="video/mp4" />
+	    Your browser does not support the video tag.
+	  </video>
+	</p>
+
+	<p class="section-title">Transmission</p>
+	<p class="section">
+	  I have yet to use this one at the time I'm writing this. It should only be necessary for larger automata, where one crank axis wouldn't be enough to drive everything.
+	  
+	  <video class="vid" controls>
+	    <source src="/assets/process-photos/2-mechanisms/transmission.mp4" type="video/mp4" />
+	    Your browser does not support the video tag.
+	  </video>
+	</p>
+	
+	<div class="page-nav">
+	  <a class="prev-link" href="pr-tools.html">Previous</a> |
+	  <a class="next-link" href="pr-wiring.html">Next</a>
+	</div>
+      </div>
+
+      <div id="right-column" class="column">
+      </div>
+    </div>
+
+    <div class="footer">
+      	<a href="home.html">Home</a> | 
+	<a href="gallery.html">Gallery</a> | 
+	<a href="process.html">Making Process</a> | 
+	<a href="contact.html">Contact</a>
+	<p id="copyright">Copyright &#169 2020 CrankyMachines.<br />All Rights Reserved</p>
+    </div>
+  </body>
+</html>
