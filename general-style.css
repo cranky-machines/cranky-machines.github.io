@@ -3,7 +3,8 @@
 }
 
 body {
-    overflow-x: hidden!important;
+    margin: -6px;
+    overflow-x: hidden;
     overflow-y:visible;
     background: #cccbc1;
     overscroll-behavior: none;
@@ -93,7 +94,10 @@ body {
     cursor: not-allowed;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px), screen and (orientation: portrait) {
+    #header h1 {
+	font-size: xx-large;
+    }
     #nav li {
 	float: none;
 	display: block;
@@ -113,6 +117,7 @@ body {
     margin-left: -28%;
     width: 156%;
     perspective: 20px;
+    overflow-x: hidden;    
 }
 
 .row:after {
@@ -157,7 +162,7 @@ body {
   zoom: 1.0 ;
 }
 
-@media screen and (max-width: 900px), screen and (orientation: portrait) {
+@media screen and (max-width: 900px) {
     .row{
 	margin-left: -15%;
 	width: 130%;
