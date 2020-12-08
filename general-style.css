@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: -6px;
+    margin: 0;
     overflow-x: hidden;
     overflow-y:visible;
     background: #cccbc1;
@@ -117,7 +117,6 @@ body {
     margin-left: -28%;
     width: 156%;
     perspective: 20px;
-    overflow-x: hidden;    
 }
 
 .row:after {
