@@ -153,7 +153,12 @@ body {
     transform: translateZ(-1px);
 }
 
-@media screen and (max-width: 900px), screen and (orientation: landscape) {
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@media screen and (max-width: 900px), screen and (orientation: portrait) {
     .row{
 	margin-left: -15%;
 	width: 130%;
