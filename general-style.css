@@ -137,8 +137,8 @@ body {
     overflow: hidden;
 }
 
-#main-content a {
-    font-size: larger;
+#main-content a, .footer a {
+    font-size: large;
     text-decoration: none;
 }
 

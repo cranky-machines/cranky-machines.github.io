@@ -1,3 +1,7 @@
+#main-content a {
+    font-size: larger;
+}
+
 h2#title {
     display: block;
     text-align: center;
@@ -9,7 +13,6 @@ ul.link-list {
     font-size: large;
     list-style: square;
     padding-top: 1%;
-    padding-bottom: 90%;
 }
 
 ul.link-list>li {
