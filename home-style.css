@@ -18,12 +18,16 @@ img#home-banner {
     padding-bottom: 20%;
 }
 
+#main-content p {
+    text-indent: 3em;
+    padding: 0 12%;
+}
+
 @media screen and (max-width: 900px) {
   #main-content {
       padding-bottom: 30%;
   }
-}
-
-#main-content p {
-    text-indent: 3em;
+  #main-content p {
+      padding: 0 5%;
+  }
 }
