@@ -137,6 +137,11 @@ body {
     overflow: hidden;
 }
 
+#main-content a {
+    font-size: larger;
+    text-decoration: none;
+}
+
 a.disabled {
     text-decoration: none;
     color: #555555;
