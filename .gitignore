@@ -1,6 +1,8 @@
 *.html#
 *.css#
 *.php#
+*.org#
 *.html~
 *.css~
 *.php~
+*.org~

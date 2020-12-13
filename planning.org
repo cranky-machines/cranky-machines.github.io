@@ -1,0 +1,88 @@
+#+STARTUP: overview indent
+
+* Article format
+** Robots
+*** title
+*** date
+*** italic subtitle
+*** main picture
+(or video if there are no pictures)
+*** concept
+Describes where the idea came from and why it seemed interesting.
+*** construction
+How long it took.
+Details the making process.
+*** new things
+*** what needs improvement
+*** videos and more pictures
+** Process
+*** title
+*** content
+The content is divided in subsections. Pictures, videos or images grids can be used.
+* Assets
+** Images
+*** large (when they open in a new tab)
+**** size: original
+**** resolution: original
+**** compression: using online tools
+**** format: jpg
+*** medium (main-images)
+**** size: 1200px width
+**** resolution: 72dpi
+**** compression: quality of 70
+**** format: jpg
+*** small (thumbnails in the image-grid)
+**** size: 600px width
+**** resolution: 72dpi
+**** compression: quality of 70
+**** format: jpg
+*** post-its
+**** process: rotate it to even it out, cut the borders about 2 or 3 pixels
+**** size: 900px width
+**** resolution: 72dpi
+**** compression: quality of 70
+**** format: jpg
+** Videos
+*** edited with VLC
+**** trimmed to get under 50mb (if possible)
+**** muted if there's background noise
+**** converted to mp4 (then rotated back if vertical)
+*** uploaded to https://video.ploud.fr/ (user cy_mo)
+**** naming convention
+***** bot#-name
+***** pr#-name
+**** short description
+**** license: attribution non-commercial
+**** privacy: unlisted
+**** video comments not allowed
+**** download allowed
+* List of articles
+** Robots
+| Name          | Concept | Pictures | Videos |
+|---------------+---------+----------+--------|
+| Sad drinking  | y       | y        | y      |
+| Swatting      | y       | n        | y      |
+| Cool drinking | y       | n        | y      |
+| DJ            | y       | y        | y      |
+| Maker         | y       | y        | y      |
+| Seppuku       | y       | n        | y      |
+| Violinist     | y       | y        | y      |
+| Readers       | y       | y        | y      |
+| Dancer        | -       | -        | -      |
+** Process
+| Name                | Pictures | Videos |
+|---------------------+----------+--------|
+| Materials and tools | y        | n      |
+| Mechanisms          | n        | y      |
+| Wires               | y        | y      |
+*** Mechanisms (part of process)
+| Name                 | Pictures | Videos |
+|----------------------+----------+--------|
+| High-lever           | n        | y      |
+| Low-lever            | n        | y      |
+| Build-up             | n        | y      |
+| Worm drive           | n        | y      |
+| Transmission         | n        | y      |
+| Corssed transmission | -        | -      |
+
+
